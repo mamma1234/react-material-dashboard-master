@@ -1,0 +1,29 @@
+
+--- MobX 설정
+# MobX 추가
+yarn add mobx react-mobx
+
+# react-app-rewired 추가
+yarn add react-app-rewired
+
+# 추가 사용할 웹팩 패키지 설치 (데코레이터를 위한 모듈)
+yarn add @babel/plugin-proposal-decorators --dev
+
+# package.json 스크립트 변경
+package.json 
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
+
+#데코레이터 바벨 설정 추가  
+config-overrides.js 
+
+#리액트 라우터 설치
+yarn add react-router-dom
+
+#visual studio code - experimentalDecorators
+jsconfig.json 
+
+yarn start
